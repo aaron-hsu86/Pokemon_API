@@ -17,7 +17,7 @@ function App() {
   }
   // console.log(pokeList)
   return (
-    <div className="App">
+    <div>
       {pokeList.length==0?<button onClick={getPokeList}>List 807 Pokemon!</button>:<></>}
       <div>
         <ul>
